@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'TT Lakes';
+    background-color: #f8f8f8;
+
+}
+li {
+    list-style-type: none;
+}
+
+.menu {
+    width: 320px;
+    height: 1024px;
+    box-shadow: 8px 0px 52px rgba(14, 24, 80, 0.2);
+}
+.header__content {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+    
+
+.burger__img{
+    margin-left: 24px;
+    margin-top: 23px;
+    
+}
+.logo__img {
+    margin-top: 18.7px;
+    margin-left: 16.73px;
+    
+}
+.search__img {
+    margin-top: 24px;
+    margin-left: 78.27px;
+   
+}
+.content__title {
+    margin-top: 55px;
+    padding-left: 24px;
+    margin-bottom: 50px;
+    color: rgba(126, 126, 130, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    background-image: url("/image/highlight.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+    height: 32px;
+    align-items: center;
+    
+}
+
+.content__list {
+    
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -22px;
+}
+.content__list_item {
+    width: 198px;
+    margin-top: 32px;
+    margin-left: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+.content__list_item:hover {
+    border-radius: 6px;
+    background: #fff;
+    border: 2px solid #B8FFEC;
+}
+.content_link {
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+}
+.contact {
+    width: 196px;
+    margin-top: 150px;
+    margin-left: 24px;
+    position: relative;
+    top: 50px;
+    
+}
+
+.chat {
+    padding-left: 16px;
+}
+.profile {
+    padding-left: 8px;
+}
+.mail {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    position: relative;
+    top: -5px;
+}
+.num {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    font-weight: 700;
+    position: relative;
+    top: -20px;
+}
+.lang__ru,
+.lang__en,
+.lang__ch {
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+    
+}
+.lang__ru {
+    color: rgba(126, 126, 130, 1);
+}
+.lang {
+    margin-left: 17px;
+    padding: 7px;
+    position: relative;
+    top: 70px;
+}
+.call,
+.chat,
+.profile {
+    text-decoration: none;
+}
+
+
