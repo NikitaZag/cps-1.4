@@ -48,7 +48,7 @@ li {
     line-height: 24px;
     letter-spacing: -0.2px;
     font-weight: 500;
-    background-image: url("/image/highlight.svg");
+    background-image: url(".../image/highlight.svg");
     background-repeat: no-repeat;
     background-size: contain;
    
