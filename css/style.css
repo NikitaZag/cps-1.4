@@ -16,27 +16,45 @@ li {
 }
 .header__content {
     margin: 0;
+    padding: 0;
+    height: 88px;
+    display: flex;
+    
+   
+    
+    
+}
+
+
+    
+.header__content_link {
     display: flex;
     align-items: center;
     
-    
 }
 
-    
-
-.burger__img{
-    margin-left: 24px;
-    margin-top: 23px;
+.burger {
+    background-image: url("../image/burger.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+   left: -10px;
+}
+.logo {
+    background-image: url("../image/Group.svg");
+    background-repeat: no-repeat;
+    width: 96.55px;;
+    height: 50.81px;
     
 }
-.logo__img {
-    margin-top: 18.7px;
-    margin-left: 16.73px;
-    
-}
-.search__img {
-    margin-top: 24px;
-    margin-left: 78.27px;
+.search {
+    background-image: url("../image/search.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    right: -40px;
    
 }
 .content__title {
@@ -97,13 +115,16 @@ li {
 .profile {
     padding-left: 8px;
 }
+
 .mail {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     font-weight: 500;
     position: relative;
-    top: -5px;
+    top: 10px;
+    text-decoration: none;
+    color: black;
 }
 .num {
     font-size: 24px;
@@ -111,7 +132,12 @@ li {
     letter-spacing: -0.6px;
     font-weight: 700;
     position: relative;
-    top: -20px;
+    top: 20px;
+    display: flex;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+    
 }
 .lang__ru,
 .lang__en,
@@ -128,15 +154,45 @@ li {
     color: rgba(126, 126, 130, 1);
 }
 .lang {
-    margin-left: 17px;
+    /* margin-left: 17px;
     padding: 7px;
     position: relative;
-    top: 70px;
+    top: 70px; */
+    display: flex;
+    margin-top: 150px;
+    gap: 7px;
 }
 .call,
 .chat,
 .profile {
     text-decoration: none;
+}
+.call {
+    background-image: url("../image/call.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    
+}
+.chat {
+    background-image: url("../image/chat.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    right: 80px;
+}
+.profile {
+    background-image: url("../image/profile.svg");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 120px;
+}
+
+.contact__ic {
+    display: flex;
 }
 
 
