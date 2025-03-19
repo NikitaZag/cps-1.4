@@ -139,20 +139,8 @@ li {
     color: black;
     
 }
-.lang__ru,
-.lang__en,
-.lang__ch {
-    text-decoration: none;
-    color: rgba(27, 28, 33, 1);
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-    font-weight: 500;
-    
-}
-.lang__ru {
-    color: rgba(126, 126, 130, 1);
-}
+
+
 .lang {
     /* margin-left: 17px;
     padding: 7px;
@@ -195,4 +183,17 @@ li {
     display: flex;
 }
 
+.radio__cont {
+    color: rgba(27, 28, 33, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    font-weight: 500;
+}
+input[type="radio"] {
+    appearance: none; 
+}
+.radio__button_click:checked + .radio__cont {
+    color:  rgba(126, 126, 130, 1);
+}
 
